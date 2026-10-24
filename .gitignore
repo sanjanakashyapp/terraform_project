@@ -1,0 +1,13 @@
+# Local .terraform directories containing downloaded provider modules
+.terraform/
+
+# Production state files containing sensitive resource architecture data
+*.tfstate
+*.tfstate.backup
+
+# Dependency lock file containing local provider hashes
+.terraform.lock.hcl
+
+# Private environment variable files (if you used any)
+*.tfvars
+*.tfvars.json
